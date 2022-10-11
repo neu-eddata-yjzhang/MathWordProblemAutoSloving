@@ -1,0 +1,164 @@
+nohup: ignoring input
+Reading lines...
+Transfer numbers...
+Indexing words...
+keep_words 3928 / 10543 = 0.3726
+Indexed 3931 words in input language, 23 words in output
+Number of training data 21021
+Number of testind data 998
+Some weights of BertModel were not initialized from the model checkpoint at /home/yjzhang/Paper/Model/full-bert-60 and are newly initialized: ['bert.pooler.dense.weight', 'bert.pooler.dense.bias']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+epoch: 1
+teacher_loss: 0.5242753028869629
+loss: 0.8439996978962621
+training time 0h 6m 46s
+--------------------------------
+549 623 998
+test_answer_acc 0.5501002004008017 0.624248496993988
+testing time 0h 1m 30s
+------------------------------------------------------
+epoch: 2
+teacher_loss: 0.39929133653640747
+loss: 0.4271204908416696
+training time 0h 6m 47s
+--------------------------------
+641 732 998
+test_answer_acc 0.6422845691382766 0.7334669338677354
+testing time 0h 1m 31s
+------------------------------------------------------
+epoch: 3
+teacher_loss: 0.45676475763320923
+loss: 0.3171369686178421
+training time 0h 6m 51s
+--------------------------------
+658 768 998
+test_answer_acc 0.6593186372745491 0.7695390781563126
+testing time 0h 1m 29s
+------------------------------------------------------
+epoch: 4
+teacher_loss: 0.4581105411052704
+loss: 0.25942729759388683
+training time 0h 6m 55s
+--------------------------------
+673 782 998
+test_answer_acc 0.6743486973947895 0.7835671342685371
+testing time 0h 1m 33s
+------------------------------------------------------
+epoch: 5
+teacher_loss: 0.4485568106174469
+loss: 0.2162361142184455
+training time 0h 6m 54s
+--------------------------------
+670 781 998
+test_answer_acc 0.6713426853707415 0.782565130260521
+testing time 0h 1m 31s
+------------------------------------------------------
+epoch: 6
+teacher_loss: 0.4810447692871094
+loss: 0.18849707257053624
+training time 0h 6m 58s
+--------------------------------
+673 781 998
+test_answer_acc 0.6743486973947895 0.782565130260521
+testing time 0h 1m 30s
+------------------------------------------------------
+epoch: 7
+teacher_loss: 0.2192247211933136
+loss: 0.17001832798236763
+training time 0h 6m 55s
+--------------------------------
+688 797 998
+test_answer_acc 0.6893787575150301 0.7985971943887775
+testing time 0h 1m 34s
+------------------------------------------------------
+epoch: 8
+teacher_loss: 0.3507843315601349
+loss: 0.14942198928836817
+training time 0h 6m 56s
+--------------------------------
+671 786 998
+test_answer_acc 0.6723446893787575 0.7875751503006012
+testing time 0h 1m 36s
+------------------------------------------------------
+epoch: 9
+teacher_loss: 0.2872788906097412
+loss: 0.1387592470216674
+training time 0h 6m 56s
+--------------------------------
+688 796 998
+test_answer_acc 0.6893787575150301 0.7975951903807615
+testing time 0h 1m 36s
+------------------------------------------------------
+epoch: 10
+teacher_loss: 0.405231773853302
+loss: 0.12551274887729816
+training time 0h 6m 57s
+--------------------------------
+682 791 998
+test_answer_acc 0.6833667334669339 0.7925851703406813
+testing time 0h 1m 40s
+------------------------------------------------------
+epoch: 11
+teacher_loss: 0.31055349111557007
+loss: 0.11465121944586618
+training time 0h 6m 57s
+--------------------------------
+695 811 998
+test_answer_acc 0.6963927855711423 0.812625250501002
+testing time 0h 1m 36s
+------------------------------------------------------
+epoch: 12
+teacher_loss: 0.5430498123168945
+loss: 0.10504600610669072
+training time 0h 6m 57s
+--------------------------------
+698 816 998
+test_answer_acc 0.6993987975951904 0.8176352705410822
+testing time 0h 1m 35s
+------------------------------------------------------
+epoch: 13
+teacher_loss: 0.24371227622032166
+loss: 0.09963972631223851
+training time 0h 7m 1s
+--------------------------------
+690 804 998
+test_answer_acc 0.6913827655310621 0.8056112224448898
+testing time 0h 1m 36s
+------------------------------------------------------
+epoch: 14
+teacher_loss: 0.36121970415115356
+loss: 0.09397510247506326
+training time 0h 7m 1s
+--------------------------------
+696 801 998
+test_answer_acc 0.6973947895791583 0.8026052104208417
+testing time 0h 1m 29s
+------------------------------------------------------
+epoch: 15
+teacher_loss: 0.36136651039123535
+loss: 0.08784355599677
+training time 0h 6m 57s
+--------------------------------
+693 810 998
+test_answer_acc 0.6943887775551102 0.811623246492986
+testing time 0h 1m 32s
+------------------------------------------------------
+epoch: 16
+teacher_loss: 0.2785016596317291
+loss: 0.08583414617959903
+training time 0h 6m 58s
+--------------------------------
+693 807 998
+test_answer_acc 0.6943887775551102 0.8086172344689379
+testing time 0h 1m 33s
+------------------------------------------------------
+epoch: 17
+teacher_loss: 0.2525724470615387
+loss: 0.08102911719669627
+training time 0h 6m 57s
+--------------------------------
+685 810 998
+test_answer_acc 0.6863727454909819 0.811623246492986
+testing time 0h 1m 35s
+------------------------------------------------------
+epoch: 18
